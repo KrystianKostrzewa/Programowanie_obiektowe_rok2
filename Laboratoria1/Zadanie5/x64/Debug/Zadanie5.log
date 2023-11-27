@@ -1,0 +1,4 @@
+﻿  Zadanie5.cpp
+C:\Users\kryst\OneDrive\Pulpit\Laboratoria1\Zadanie5\Zadanie5.cpp(22,38): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\Laboratoria1\Zadanie5\Zadanie5.cpp(24,16): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+  Zadanie5.vcxproj -> C:\Users\kryst\OneDrive\Pulpit\Laboratoria1\Zadanie5\x64\Debug\Zadanie5.exe
