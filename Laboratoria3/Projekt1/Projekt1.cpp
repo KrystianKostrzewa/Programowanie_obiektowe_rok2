@@ -4,6 +4,7 @@
 #include <random>
 
 #define SMALL_VALUE 0.005
+#define table1_size 10000
 
 using namespace std;
 
@@ -139,17 +140,17 @@ int main()
     //c
     srand(time(NULL));
     Circle circle0(0,0,6);
-    Circle table1[1000]{};
+    Circle table1[table1_size]{};
     int insideCounter = 0;
     int outsideCounter = 0;
 
-    for (int i = 0; i < 1000; i++)
+    for (int i = 0; i < table1_size; i++)
     {
         table1[i] = Circle(rand() % 41 - 20, rand() % 41 - 20, rand() % 20 + 1);
     }
 
     //d
-    for (int i = 0; i < 1000; i++)
+    for (int i = 0; i < table1_size; i++)
     {
         if (circle0.check_contact(table1[i]) == 1) insideCounter++;
         else if (circle0.check_contact(table1[i]) == 2) outsideCounter++;
