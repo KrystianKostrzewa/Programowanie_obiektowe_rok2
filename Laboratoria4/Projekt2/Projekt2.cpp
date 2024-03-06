@@ -88,7 +88,8 @@ int main()
     cout << endl << endl;
     for (int i = 0; i < size(table); i++)
     {
-        cout << table[i];
+        cout << table[i] << " ";
+        cout << table[i].length() << endl;
     }
 
     //e
